@@ -130,12 +130,12 @@ cc_library_shared {
     vendor_available: true,
 }
 
-cc_library_shared {
-    name: "android.hardware.power-V2-ndk_platform",
-    shared_libs: ["android.hardware.power-V2-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
+//cc_library_shared {
+//    name: "android.hardware.power-V2-ndk_platform",
+//    shared_libs: ["android.hardware.power-V2-ndk"],
+//    system_ext_specific: true,
+//    vendor_available: true,
+//}
 
 //cc_library_shared {
 //    name: "android.hardware.power.stats-V1-ndk_platform",
